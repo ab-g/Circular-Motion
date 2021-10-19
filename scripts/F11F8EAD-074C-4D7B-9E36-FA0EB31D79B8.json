@@ -1,0 +1,67 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "F11F8EAD-074C-4D7B-9E36-FA0EB31D79B8"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "8FE28AAA-25A1-4115-8D58-F220B1DBBE9A"
+        },
+        "name": "AnimationScript",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "C69B5F3E-00F2-42B1-8A4E-496879E189F4"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 3,
+            "name": "Sphere",
+            "subaddress": {
+              "@class": "NodeRelativeAddressBase",
+              "index": 1,
+              "name": "Circular Motion"
+            }
+          }
+        },
+        "animation": {
+          "uuid": "918FECB5-CFBE-4527-A34F-E1EE59AA487E"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "FE44ADDD-469E-4783-8388-0245A0B3278A"
+      },
+      "ownerScriptId": {
+        "uuid": "F11F8EAD-074C-4D7B-9E36-FA0EB31D79B8"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 187,
+      "state": 2
+    }
+  ]
+}

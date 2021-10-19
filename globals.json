@@ -1,1 +1,44 @@
-{"@class":"VariousSymbolTable","id":{"uuid":"441F6629-409E-4504-AEFA-5C43B57AA9E1"},"variables":[{"@class":"VariantVariable","id":{"uuid":"ABAC160E-0561-46E4-8DE5-5127433B28AC"},"name":"object__C95EA845_BC44_4DCC_857D_B0257C48D480__animation_playing","type":"float","value":0.0}]}
+{
+  "@class": "VariousSymbolTable",
+  "id": {
+    "uuid": "441F6629-409E-4504-AEFA-5C43B57AA9E1"
+  },
+  "variables": [
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "89491BB1-6D5F-42EF-8229-38DBEE45B17D"
+      },
+      "name": "object__C3A7BFC6_F4F5_4F4B_AB6E_E24411002317__x0",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "5D0D8A79-587B-4C36-9161-CB80F0371F6A"
+      },
+      "name": "object__C3A7BFC6_F4F5_4F4B_AB6E_E24411002317__y0",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "F71743E9-0048-4953-B92E-943699B9B524"
+      },
+      "name": "object__C69B5F3E_00F2_42B1_8A4E_496879E189F4__radius",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "ABAC160E-0561-46E4-8DE5-5127433B28AC"
+      },
+      "name": "object__C95EA845_BC44_4DCC_857D_B0257C48D480__animation_playing",
+      "type": "float",
+      "value": 0
+    }
+  ]
+}

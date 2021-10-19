@@ -1,0 +1,104 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "01C4A4A3-5721-40C1-9258-EE7ED6ED064A"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": true,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "B5468BD0-3C2E-4E57-A017-7120CB9E0ECE"
+        },
+        "name": "angle",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "46494F0C-7408-434E-BD2B-50DE8C83DB04"
+          }
+        },
+        "animation": {
+          "uuid": "6553F91E-B6D8-4666-8203-907CBA0C58DF"
+        },
+        "AnimationType": "avar",
+        "is_imported": false,
+        "isEnabled": true
+      },
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "5C4DC3FE-112F-4B6E-B575-D501E71F4714"
+        },
+        "name": "AnimationScript",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "C3A7BFC6-F4F5-4F4B-AB6E-E24411002317"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 3,
+            "name": "Sphere"
+          }
+        },
+        "animation": {
+          "uuid": "CF0561F3-1520-4372-8520-0215108C0A92"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "AnimationTrigger",
+      "id": {
+        "uuid": "38581F44-963D-410C-8484-FDFE8B1A9C3E"
+      },
+      "ownerScriptId": {
+        "uuid": "01C4A4A3-5721-40C1-9258-EE7ED6ED064A"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "event": 2,
+      "bindingLink": {
+        "@class": "BindingLink",
+        "targetId": {
+          "uuid": "E69C4F6E-9CB1-4749-BD09-5BFA93F44AA8"
+        }
+      }
+    }
+  ],
+  "symbolTable": {
+    "@class": "VariousSymbolTable",
+    "id": {
+      "uuid": "93D5C4BC-266F-423F-AAAE-B0637679BE4C"
+    },
+    "variables": [
+      {
+        "@class": "VariantVariable",
+        "id": {
+          "uuid": "46494F0C-7408-434E-BD2B-50DE8C83DB04"
+        },
+        "name": "angle",
+        "type": "float",
+        "value": 0
+      }
+    ]
+  }
+}
